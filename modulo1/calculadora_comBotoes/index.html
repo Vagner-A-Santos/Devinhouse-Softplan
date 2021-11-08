@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DevInHouse</title>
+</head>
+
+<body>
+    <div id="container">
+        <header class="titulo">
+                <h1>Calculadora com botoes</h1>
+        </header>
+        <div class="main">
+            <div class="numeros">
+                <input type="number" name="numero1" id="numero1" placeholder="Digite o 1° numero">
+                <input type="number" name="numero2" id="numero2" placeholder="Digite o 2° numero">
+            </div>
+            <div class="resultado">
+                <input type="text" name="resultadoOp" id="resultadoOp" placeholder="Resultado" readonly>
+            </div>
+        </div>
+        <div class="botoes"></div>
+            <button type="submit" onclick="somar()" id="btn-soma">Somar</button>
+            <button type="submit" onclick="subtrair()" id="btn-subtracao">Subtrair</button>
+            <button type="submit" onclick="multiplicar()" id="btn-multiplicacao">Multiplicar</button>
+            <button type="submit" onclick="dividir()" id="btn-divisao">Dividir</button>
+        </div>
+    </div>
+    </main>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
