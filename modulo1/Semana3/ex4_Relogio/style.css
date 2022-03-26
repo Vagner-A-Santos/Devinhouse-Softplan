@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 10px;
+    background-image:-webkit-linear-gradient(left, #d309f7,#4400ff, #00c6ff);
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+input{
+    margin: 10px;
+    width: 50%;
+    text-align: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.btn{
+    margin: 10px;
+    background-color: #07010a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 16px;
+    font-family: cursive;
+}
+.titulo{
+    margin: 10px;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-family: cursive;
+}
+.paragrafo{
+    text-align: center;
+    border: 1px solid rgb(1, 0, 2);
+    border-radius: 16px;
+    font-size: 30px;
+    color: rgb(1, 0, 2);
+}
