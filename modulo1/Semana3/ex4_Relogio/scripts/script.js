@@ -14,5 +14,5 @@ const mostraHora = () => {
         minuto = '0' + minuto;
     }
 
-    paragrafo.textContent = `Acessado às ${hora}:${minuto}`;
+    paragrafo.textContent = `${hora}:${minuto}`;
     }
