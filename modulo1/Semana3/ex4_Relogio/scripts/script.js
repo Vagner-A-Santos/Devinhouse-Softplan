@@ -1,7 +1,7 @@
 let paragrafo = document.querySelector('#paragrafo');
 let btn = document.querySelector('#btn');
 
-const atualiza = () => {
+const mostraHora = () => {
     let data = new Date();
     let hora = data.getHours();
     let minuto = data.getMinutes();
@@ -14,5 +14,5 @@ const atualiza = () => {
         minuto = '0' + minuto;
     }
 
-    paragrafo.textContent = `${hora}:${minuto}`;
+    paragrafo.textContent = `Acessado às ${hora}:${minuto}`;
     }
